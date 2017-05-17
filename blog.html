@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Блог</title>
+    <meta content="alexsandr kuznetsov" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible"><link rel="shortcut icon" href="assets/img/viking.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <link rel="stylesheet" href="./assets/css/app.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="maincontent">
+        <div class="preloader">
+          <div class="preloader__spinner">
+            <svg id="preloader__img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="95.113px" viewBox="0 0 80 95.113" enable-background="new 0 0 80 95.113" xml:space="preserve">
+              <g class="preloader__img-wave wave1">
+                <path fill="none" stroke="#ffffff" stroke-width="3.9003" stroke-miterlimit="10" d="M0,38.005c6.663,0,6.663,7.801,13.327,7.801 c6.665,0,6.665-7.801,13.33-7.801c6.667,0,6.667,7.801,13.334,7.801c6.666,0,6.666-7.801,13.331-7.801 c6.67,0,6.67,7.801,13.339,7.801S73.33,38.005,80,38.005"></path>
+              </g>
+              <g class="preloader__img-wave wave2">
+                <path fill="none" stroke="#ffffff" stroke-width="3.9003" stroke-miterlimit="10" d="M0,61.684c6.663,0,6.663,7.801,13.327,7.801 c6.665,0,6.665-7.801,13.33-7.801c6.667,0,6.667,7.801,13.334,7.801c6.666,0,6.666-7.801,13.331-7.801 c6.67,0,6.67,7.801,13.339,7.801S73.33,61.684,80,61.684"></path>
+              </g>
+              <g class="preloader__img-wave wave3">
+                <path fill="none" stroke="#ffffff" stroke-width="3.9003" stroke-miterlimit="10" d="M0,85.362c6.663,0,6.663,7.801,13.327,7.801 c6.665,0,6.665-7.801,13.33-7.801c6.667,0,6.667,7.801,13.334,7.801c6.666,0,6.666-7.801,13.331-7.801 c6.67,0,6.67,7.801,13.339,7.801S73.33,85.362,80,85.362"></path>
+              </g>
+              <text class="preloader__percents" x="10" y="0" transform="matrix(1 0 0 1 19.9785 20.5957)" font-family="'ArialMT'" font-size="12">loading</text>
+            </svg>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="social nav__social_mods">
+            <li class="social__item"><a class="social__link social__link_" href="https://vk.com/" target="_blank">vkontakte
+                <svg class="icons header__icons_mods">
+                  <use xlink:href="assets/img/sprite.svg#vk"></use>
+                </svg></a></li>
+            <li class="social__item"><a class="social__link social__link_" href="https://github.com/VivereMemento/" target="_blank">github
+                <svg class="icons header__icons_mods">
+                  <use xlink:href="assets/img/sprite.svg#github"></use>
+                </svg></a></li>
+            <li class="social__item"><a class="social__link social__link_" href="https://www.instagram.com/" target="_blank">instagram
+                <svg class="icons header__icons_mods">
+                  <use xlink:href="assets/img/sprite.svg#in"></use>
+                </svg></a></li>
+          </ul>
+          <!--social__list-->
+          <div class="trigger-menu-wrap">
+            <div class="trigger-menu trigger-menu_1"> </div>
+            <div class="trigger-menu trigger-menu_2"> </div>
+            <div class="trigger-menu trigger-menu_3"> </div>
+          </div>
+          <!--trigger-menu-->
+          <div class="menu">
+            <div class="menu-wrap">
+              <div class="menu__curtain menu__curtain-left"></div>
+              <div class="menu__curtain menu__curtain-right"></div>
+              <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="works.html">Мои работы</a></li>
+                <li class="menu__item"><a class="menu__link" href="about.html">Обо мне</a></li>
+                <li class="menu__item"><a class="menu__link" href="blog.html">Блог</a></li>
+                <li class="menu__item"><a class="menu__link" href="index.html">Авторизация</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--menu-->
+        </nav>
+        <!--nav-->
+        <header class="header">
+          <figure class="bg-wrap"><img class="bg" src="assets/img/header-bg.jpg" alt="fores-and-lake"></figure>
+          <!--header__bg-wrap-->
+          <div class="header-wrap">
+            <div class="avatar blog__avatar_mods">
+              <figure class="avatar__img-wrap"><img class="avatar__img" src="assets/img/avatar.jpg"></figure>
+              <div class="avatar__name-wrap">
+                <h1 class="heading blog__heading_mods">
+                   Блог</h1><span class="avatar__dicription blog-avatar__discription_margin_top">Статьи, которые я написал</span>
+              </div>
+            </div>
+            <div class="clickArrow-wrap"><a class="clickArrow" href="#"></a></div>
+            <div class="arrow">
+              <svg class="traingle" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 90" preserveaspectratio="none">
+                <polygon class="arrow__left  blog__arrow_color" points="0,0   0,90   500.8,90   500.8,85"></polygon>
+                <polygon class="arrow__right blog__arrow_color" points="1000,0   1000,90   500,90   500,85"></polygon>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <section class="blog">
+          <aside class="blog__aside">
+            <ul class="blog__aside-menu">
+              <li class="blog__aside-item active"><a class="blog__aside-title" href="#article1">Пока для контента </a></li>
+            </ul>
+          </aside>
+          <main class="blog__content">
+            <article class="articles">
+              <section class="articles__item" data-section="article1">
+                <div class="articles__title-wrap">
+                  <h2 class="title articles__title_mods">Пока для контента</h2>
+                </div>
+                <div class="articles__date">05 января 2017</div>
+                <div class="articles__text-wrap">
+                  <p class="articles__text">
+                    Таким образом начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке направлений прогрессивного развития. Разнообразный и богатый опыт новая модель организационной деятельности играет важную роль в формировании новых предложений. Товарищи! новая модель организационной деятельности играет важную роль в формировании систем массового участия.
+                    
+                  </p>
+                  <p class="articles__text">
+                    Не следует, однако забывать, что укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия. Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании позиций, занимаемых участниками в отношении поставленных задач. Товарищи! постоянный количественный рост и сфера нашей активности способствует подготовки и реализации модели развития. С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
+                    
+                  </p>
+                </div>
+              </section>
+              <!--articles__item-->
+            </article>
+            <!--articles-->
+          </main>
+        </section>
+      </div>
+      <!--maincontent-->
+    </div>
+    <!--wrapper-->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__list">
+          <div class="footer__item">
+            <p class="footer__item-text">Этот сайт я сделал в рамках обучения в Школе онлайн образования Loftschool</p>
+          </div>
+          <div class="footer__item">
+            <div class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item"><a class="footer__menu-link" href="works.html">Мои работы</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="about.html">Обо мне</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="blog.html">Блог</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="index.html">Авторизация</a></li>
+              </ul>
+            </div>
+            <!--menu-->
+            <ul class="social footer__social_mods">
+              <li class="social__item"><a class="social__link" href="https://vk.com/" target="_blank">vkontakte
+                  <svg class="icons footer__icons_mods">
+                    <use xlink:href="assets/img/sprite.svg#vk"></use>
+                  </svg></a></li>
+              <li class="social__item"><a class="social__link" href="https://github.com/VivereMemento/" target="_blank">github
+                  <svg class="icons footer__icons_mods">
+                    <use xlink:href="assets/img/sprite.svg#github"></use>
+                  </svg></a></li>
+              <li class="social__item"><a class="social__link" href="https://www.instagram.com/" target="_blank">instagram
+                  <svg class="icons footer__icons_mods">
+                    <use xlink:href="assets/img/sprite.svg#in"></use>
+                  </svg></a></li>
+            </ul>
+            <!--social__list-->
+          </div>
+          <div class="footer__item">
+            <p class="footer__item-text footer__item-text_mods">Всегда пишите код так, будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете.</p><span class="footer__item-author footer__item-text_mods">- Martin Golding</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom"><span class="footer__bottom-text">&copy;Александр Кузнецов|Создано с любовью в LoftSchool|2016</span></div>
+    </footer>
+    <script src="./assets/js/foundation.js" defer></script>
+    <script src="./assets/js/app.js" defer></script>
+    <script>
+      	(function (d, w, c) {
+      	(w[c] = w[c] || []).push(function() {
+      		try {
+      			w.yaCounter42422199 = new Ya.Metrika({
+      				id:42422199,
+      				clickmap:true,
+      				trackLinks:true,
+      				accurateTrackBounce:true,
+      				webvisor:true
+      			});
+      		} catch(e) { }
+      	});
+      
+      	var n = d.getElementsByTagName("script")[0],
+      		s = d.createElement("script"),
+      		f = function () { n.parentNode.insertBefore(s, n); };
+      	s.type = "text/javascript";
+      	s.async = true;
+      	s.src = "https://mc.yandex.ru/metrika/watch.js";
+      
+      	if (w.opera == "[object Opera]") {
+      		d.addEventListener("DOMContentLoaded", f, false);
+      	} else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+      <div><img src="https://mc.yandex.ru/watch/42422199" style="position:absolute; left:-9999px" alt=""></div>
+    </noscript>
+  </body>
+</html>

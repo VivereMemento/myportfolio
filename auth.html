@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Админ панель</title>
+    <meta content="alexsandr kuznetsov" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible"><link rel="shortcut icon" href="assets/img/viking.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <link rel="stylesheet" href="./assets/css/app.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper wrapper_panel-mods">
+      <div class="preloader">
+        <div class="preloader__spinner">
+          <svg id="preloader__img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="95.113px" viewBox="0 0 80 95.113" enable-background="new 0 0 80 95.113" xml:space="preserve">
+            <g class="preloader__img-wave wave1">
+              <path fill="none" stroke="#ffffff" stroke-width="3.9003" stroke-miterlimit="10" d="M0,38.005c6.663,0,6.663,7.801,13.327,7.801 c6.665,0,6.665-7.801,13.33-7.801c6.667,0,6.667,7.801,13.334,7.801c6.666,0,6.666-7.801,13.331-7.801 c6.67,0,6.67,7.801,13.339,7.801S73.33,38.005,80,38.005"></path>
+            </g>
+            <g class="preloader__img-wave wave2">
+              <path fill="none" stroke="#ffffff" stroke-width="3.9003" stroke-miterlimit="10" d="M0,61.684c6.663,0,6.663,7.801,13.327,7.801 c6.665,0,6.665-7.801,13.33-7.801c6.667,0,6.667,7.801,13.334,7.801c6.666,0,6.666-7.801,13.331-7.801 c6.67,0,6.67,7.801,13.339,7.801S73.33,61.684,80,61.684"></path>
+            </g>
+            <g class="preloader__img-wave wave3">
+              <path fill="none" stroke="#ffffff" stroke-width="3.9003" stroke-miterlimit="10" d="M0,85.362c6.663,0,6.663,7.801,13.327,7.801 c6.665,0,6.665-7.801,13.33-7.801c6.667,0,6.667,7.801,13.334,7.801c6.666,0,6.666-7.801,13.331-7.801 c6.67,0,6.67,7.801,13.339,7.801S73.33,85.362,80,85.362"></path>
+            </g>
+            <text class="preloader__percents" x="10" y="0" transform="matrix(1 0 0 1 19.9785 20.5957)" font-family="'ArialMT'" font-size="12">loading</text>
+          </svg>
+        </div>
+      </div>
+      <div class="panel">
+        <header class="panel__header"><a class="panel__return" href="index.html">Вернуться на сайт</a>
+          <h1 class="panel__heading">Панель администрирования</h1>
+        </header>
+        <div class="tabs">
+          <ul class="tabs__controls">
+            <li class="tabs__controls-item active"> <a class="tabs__controls-link" href="#">Обо мне</a></li>
+            <li class="tabs__controls-item"> <a class="tabs__controls-link" href="#">Мои работы</a></li>
+            <li class="tabs__controls-item"> <a class="tabs__controls-link" href="#">Блог</a></li>
+          </ul>
+          <ul class="tabs__list">
+            <li class="tabs__list-item active">
+              <div class="title-wrap panel__title-wrap">
+                <h2 class="panel__title">Страница "Обо мне"</h2>
+              </div>
+              <form class="panel__form">
+                <div class="panel__form-content">
+                  <ul class="panel__skills-list">
+                    <li class="panel__skills-item">
+                      <div class="panel__skills-content">
+                        <div class="panel__skills-title-wrap">
+                          <h3 class="panel__skills-title">Frontend</h3>
+                        </div>
+                        <table class="panel__form-contentt-wrap">
+                          <tbody>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-html">html</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-html" name="skill-html">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-css">css</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-css" name="skill-css">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-javascript">javascript</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-javascript" name="skill-javascript">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </li>
+                    <li class="panel__skills-item">
+                      <div class="panel__skills-content">
+                        <div class="panel__skills-title-wrap">
+                          <h3 class="panel__skills-title">Backend</h3>
+                        </div>
+                        <table class="panel__form-contentt-wrap">
+                          <tbody>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-PHP">PHP</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-PHP" name="skill-PHP">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-Node.js">Node.js</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-Node.js" name="skill-Node.js">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-Mongo.db">Mongo.db</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-Mongo.db" name="skill-Mongo.db">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-MySQL">MySQL</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-MySQL" name="skill-MySQL">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </li>
+                    <li class="panel__skills-item">
+                      <div class="panel__skills-content">
+                        <div class="panel__skills-title-wrap">
+                          <h3 class="panel__skills-title">Workflow</h3>
+                        </div>
+                        <table class="panel__form-contentt-wrap">
+                          <tbody>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-Git">Git</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-Git" name="skill-Git">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-Gulp">Gulp</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-Gulp" name="skill-Gulp">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class="table__string">
+                              <td class="td_mods_width">
+                                <div class="panel__form-label-wrap">
+                                  <label class="panel__form-label" for="panel__form-Bower">Bower</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="panel__form-input-wrap">
+                                  <input class="tabs__input tabs__input_about-mods" type="text" id="panel__form-Bower" name="skill-Bower">
+                                  <div class="tabs__input-percent">%</div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="panel__form-submit">
+                    <input class="panel__form-btn" type="submit" value="Сохранить">
+                  </div>
+                </div>
+              </form>
+            </li>
+            <li class="tabs__list-item">
+              <div class="title-wrap panel__title-wrap">
+                <h2 class="panel__title">Страница "Мои работы"</h2>
+              </div>
+              <form class="panel__form blog__panel-form">
+                <div class="panel__form-content">
+                  <div class="panel__form-title">Добавить работу</div>
+                  <div class="panel__form-input-wrap panel__form-input-wrap_blog-mods">
+                    <input class="tabs__input" type="text" id="panel__form-work-name" name="project-name" placeholder="Название проекта">
+                  </div>
+                  <div class="panel__form-input-wrap panel__form-input-wrap_blog-mods">
+                    <input class="tabs__input" type="text" id="panel__form-work-tech" name="project-tech" placeholder="Технологии">
+                  </div>
+                  <div class="panel__form-input-wrap panel__form-input-wrap_blog-mods">
+                    <label class="file-input">
+                      <div class="file-input__fake">
+                        <div class="file-input__icon"><img src="assets/img/file-input-icon.png" alt="icon"></div>
+                        <div class="file-input__text">Загрузить картинку</div>
+                      </div>
+                      <input class="tabs__input" name="project-download" type="file">
+                    </label>
+                  </div>
+                </div>
+                <div class="panel__form-submit">
+                  <input class="panel__form-btn" type="submit" value="Добавить">
+                </div>
+              </form>
+            </li>
+            <li class="tabs__list-item">
+              <div class="title-wrap panel__title-wrap">
+                <h2 class="panel__title">Страница "Блог"</h2>
+              </div>
+              <form class="panel__form blog__panel-form">
+                <div class="panel__form-content">
+                  <div class="panel__form-title">Добавить запись</div>
+                  <div class="panel__form-input-wrap panel__form-input-wrap_blog-mods">
+                    <input class="tabs__input" type="text" id="panel__form-blog-name" name="blog-name" placeholder="Название">
+                  </div>
+                  <div class="panel__form-input-wrap panel__form-input-wrap_blog-mods">
+                    <input class="tabs__input" type="text" id="panel__form-blog-date" name="blog-date" placeholder="Дата">
+                  </div>
+                  <div class="panel__form-input-wrap panel__form-input-wrap_blog-mods">
+                    <textarea class="tabs__input tabs__input_taxtarea-mods" id="panel__form-blog-text" name="blog-text" placeholder="Содержание"></textarea>
+                  </div>
+                </div>
+                <div class="panel__form-submit">
+                  <input class="panel__form-btn" type="submit" value="Добавить">
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--maincontent-->
+    </div>
+    <!--wrapper-->
+    <script src="./assets/js/foundation.js" defer></script>
+    <script src="./assets/js/app.js" defer></script>
+    <script>
+      	(function (d, w, c) {
+      	(w[c] = w[c] || []).push(function() {
+      		try {
+      			w.yaCounter42422199 = new Ya.Metrika({
+      				id:42422199,
+      				clickmap:true,
+      				trackLinks:true,
+      				accurateTrackBounce:true,
+      				webvisor:true
+      			});
+      		} catch(e) { }
+      	});
+      
+      	var n = d.getElementsByTagName("script")[0],
+      		s = d.createElement("script"),
+      		f = function () { n.parentNode.insertBefore(s, n); };
+      	s.type = "text/javascript";
+      	s.async = true;
+      	s.src = "https://mc.yandex.ru/metrika/watch.js";
+      
+      	if (w.opera == "[object Opera]") {
+      		d.addEventListener("DOMContentLoaded", f, false);
+      	} else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+      <div><img src="https://mc.yandex.ru/watch/42422199" style="position:absolute; left:-9999px" alt=""></div>
+    </noscript>
+  </body>
+</html>
